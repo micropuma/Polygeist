@@ -1,0 +1,1 @@
+cgeist gemm.c -function=matmul -S
