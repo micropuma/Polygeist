@@ -29,7 +29,7 @@ if ! test -f "$PLUTO_LLVM_INSTALL_DIR/.DONE"; then
     cd "$PLUTO_LLVM_PREFIX"
 
 
-    git clone https://github.com/llvm/llvm-project.git "$PLUTO_LLVM_SRC_DIR" || true
+    git clone git@github.com:llvm/llvm-project.git "$PLUTO_LLVM_SRC_DIR" || true
 
     cd "$PLUTO_LLVM_SRC_DIR"
 
@@ -56,7 +56,7 @@ if ! test -f "$PLUTO_PREFIX/.DONE"; then
     cd "$PLUTO_PREFIX"
 
     #git clone --recurse-submodules https://github.com/kumasento/pluto "$PLUTO_SRC_DIR" || true
-    git clone https://github.com/kumasento/pluto "$PLUTO_SRC_DIR" || true
+    git clone git@github.com:kumasento/pluto.git "$PLUTO_SRC_DIR" || true
     cd "$PLUTO_SRC_DIR"
     git checkout 5603283fb3e74fb33c380bb52874972b440d51a2
     git submodule update --init --recursive
@@ -78,7 +78,7 @@ if ! test -f "$OPENSCOP_PREFIX/.DONE"; then
     cd "$OPENSCOP_PREFIX"
 
 
-    git clone https://github.com/periscop/openscop.git "$OPENSCOP_SRC_DIR" || true
+    git clone git@github.com:periscop/openscop.git "$OPENSCOP_SRC_DIR" || true
     cd "$OPENSCOP_SRC_DIR"
     git checkout 37805d8fef38c2d1b8aa8f5c26b40f79100322e7
 
@@ -98,7 +98,7 @@ if ! test -f "$CLOOG_PREFIX/.DONE"; then
     cd "$CLOOG_PREFIX"
 
 
-    git clone https://github.com/kumasento/cloog.git "$CLOOG_SRC_DIR" || true
+    git clone git@github.com:kumasento/cloog.git "$CLOOG_SRC_DIR" || true
     cd "$CLOOG_SRC_DIR"
     git checkout 43CFB85ED1E1BA1C2F27B450498522B35467ACE7
     git submodule update --init --recursive
