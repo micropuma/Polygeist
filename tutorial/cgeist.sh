@@ -1,1 +1,1 @@
-cgeist gemm.c -function=matmul -S
+cgeist gemm.c --function=matmul -S -o temp.mlir
