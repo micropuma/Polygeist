@@ -85,3 +85,4 @@ pythonenv*
 # tmp output from tests
 *.exec1
 *.out1
+*/bin/*
