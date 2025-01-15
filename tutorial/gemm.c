@@ -1,5 +1,5 @@
-#define N 200
-#define M 300
+#define N 2
+#define M 2
 #define DATA_TYPE float
 
 void matadd(DATA_TYPE A[N][M], DATA_TYPE B[N][M], DATA_TYPE C[N][M]) {
